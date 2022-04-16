@@ -12,7 +12,7 @@ import App from './App';
 // Store это бъек база даных с информацией и методами управления ей
 // потом передаёт этот объект компаненте App через параметры  так называемые пропсы
 const funMainRender = (_State) => {
-  debugger
+
   ReactDOM.render(
     <React.StrictMode>
       {/* функция компонента App по сути и есть всё приложение она получает объект Store.getState этот
@@ -25,7 +25,7 @@ const funMainRender = (_State) => {
 потом сравнивает свойство action.type и взависимости от условия if вызывает ту или иную функцию 
 
 */}
-      <App State={_State} dispatch={Store.dispatch.bind(Store)} />
+      <App  withPictureOf="cats"  State={_State} dispatch={Store.dispatch.bind(Store)} />
 
     </React.StrictMode>,
     document.getElementById('root')

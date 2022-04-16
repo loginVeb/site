@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { device } from './@media';
 import GlobalFonts from './Fonts/Fonts'
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -10,13 +11,20 @@ import Header from './Header19201/Header';
 
 
 
-
 const StyleAppWrapper = styled.div`
+
 display: grid;
 grid-template-columns:repeat(12, 8.333%);     
 grid-template-rows:repeat(12, 90px); 
 ${'' /* border: solid 10px blue; */}
 background: #cccccc ;
+
+@media ${device.laptop} { 
+ border: solid 100px blue;
+    
+  }
+
+
 `
 
 function App(props) {
