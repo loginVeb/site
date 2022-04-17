@@ -1,10 +1,10 @@
 import React from 'react';
-import img from './img/header.jpg';
+import img from './img/header1.png';
 import styled from 'styled-components';
 
 
-const StyleHeader = styled.header`
-  grid-area: 1/1/3/13;
+const SHeader = styled.header`
+  grid-area: 1/1/2/13;
    
   display: grid;
   grid-template-columns:repeat(12, 8.333%); 
@@ -18,9 +18,9 @@ const StyleHeader = styled.header`
 
 const Header = () => {
   return (
-    <StyleHeader>
+    <SHeader>
      
-    </StyleHeader>
+    </SHeader>
 
   );
 

@@ -19,16 +19,15 @@ grid-template-rows:repeat(12, 90px);
 ${'' /* border: solid 10px blue; */}
 background: #cccccc ;
 
-@media ${device.laptop} { 
- border: solid 100px blue;
+@media ${device.tablet} { 
+ border: solid 1px blue;
     
   }
 
 
 `
 
-function App(props) {
-  debugger
+function App() {
   return (
     <BrowserRouter >
       <StyleAppWrapper>
