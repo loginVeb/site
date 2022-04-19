@@ -19,8 +19,8 @@ grid-template-rows:repeat(12, 90px);
 ${'' /* border: solid 10px blue; */}
 background: #cccccc ;
 
-@media ${device.tablet} { 
- border: solid 1px blue;
+@media ${device.mobileM} { 
+ border: solid 5px blue;
     
   }
 

@@ -25,7 +25,7 @@ const funMainRender = (_State) => {
 потом сравнивает свойство action.type и взависимости от условия if вызывает ту или иную функцию 
 
 */}
-      <App  withPictureOf="cats"  State={_State} dispatch={Store.dispatch.bind(Store)} />
+      <App  State={_State} dispatch={Store.dispatch.bind(Store)} />
 
     </React.StrictMode>,
     document.getElementById('root')
