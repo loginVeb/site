@@ -10,7 +10,7 @@ const StyleAppWrapper = styled.div`
 
 display: grid;
 grid-template-columns:repeat(12, 8.333%);  
-grid-template-rows:repeat(12, 50px); 
+grid-template-rows:repeat(12, 55px); 
 ${'' /* border: solid 10px blue; */}
 background: #cccccc ;
 
