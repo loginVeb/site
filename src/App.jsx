@@ -9,13 +9,13 @@ import Header from './3Header/Header';
 const StyleAppWrapper = styled.div`
 
 display: grid;
-grid-template-columns:repeat(12, 8.333%);     
-grid-template-rows:repeat(12, 90px); 
+grid-template-columns:repeat(12, 8.333%);  
+grid-template-rows:repeat(12, 50px); 
 ${'' /* border: solid 10px blue; */}
 background: #cccccc ;
 
 @media ${device.mobileM} { 
- border: solid 5px blue;
+ border: solid 1px blue;
     
   }
 
