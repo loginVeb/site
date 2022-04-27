@@ -3,23 +3,16 @@ import styled from 'styled-components';
 import { device } from './@media';
 import GlobalFonts from './Fonts/Fonts'
 import { BrowserRouter, Route } from "react-router-dom";
-
 import Header from './3Header/Header';
 
 const StyleAppWrapper = styled.div`
-
 display: grid;
 grid-template-columns:repeat(12, 8.333%);  
 grid-template-rows:repeat(12, 55px); 
-${'' /* border: solid 10px blue; */}
 background: #cccccc ;
-
 @media ${device.mobileM} { 
- border: solid 1px blue;
-    
-  }
-
-
+border: solid 3px blue;
+}
 `
 
 function App() {
