@@ -11,14 +11,14 @@ const SHeader = styled.header`
   background-image: url(${img});
   background-size:cover;
   font-family:Fon.woff2 ;
-  /* border: solid 1px blue; */
+  border: solid 1px blue; 
 `
 
 
 const Header = () => {
   return (
     <SHeader>
-      Осташков
+      
     </SHeader>
   );
 

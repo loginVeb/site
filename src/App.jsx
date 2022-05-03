@@ -4,6 +4,8 @@ import { device } from './@media';
 import GlobalFonts from './Fonts/Fonts';
 import { BrowserRouter, Route } from "react-router-dom";
 import Header from './3Header/Header';
+import Nav from './4nav/nav.jsx';
+import Main from './5main/main.jsx';
 
 const StyleAppWrapper = styled.div`
 display: grid;
@@ -13,21 +15,20 @@ background: #cccccc ;
 color:red;
   font-family:DSMoster.woff ;
 @media ${device.mobileM} { 
-border: solid 3px blue;
+border: solid 1px blue;
 }
 `
 
 function App() {
   return (
-    <BrowserRouter >
-      <StyleAppWrapper>
-        <GlobalFonts />
-        <Route exact path='/' render={() => <Header />} />
-        Осташков 7777
-        {/* <Route exact path='/' render={() => <Main props={props.St} />} /> */}
-        {/* <Route path='/Sms' render={() => <Sms props={props} />} /> */}
-      </StyleAppWrapper>
-    </BrowserRouter>
+<BrowserRouter >
+<StyleAppWrapper>
+<GlobalFonts />
+<Route path='/' render={() => <Header />} />
+<Route path='/' render={() => < Nav/>} />
+<Route path='/' render={() => <Main/>} />
+</StyleAppWrapper>
+</BrowserRouter>
   );
 };
 
