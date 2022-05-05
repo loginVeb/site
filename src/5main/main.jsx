@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Route } from "react-router-dom";
 import Profile from './profile/profile.jsx'
+import Diologs from './diologs/diologs.jsx'
 
 const SMain = styled.main`
 grid-area:2/4/13/13;
@@ -17,6 +18,7 @@ border: solid 1px #ec4662;
   return (
 <SMain> 
 <Route path='/profile' render={() => <Profile/>} />
+<Route path='/diologs' render={() => <Diologs/>} />
 
  </SMain>
   );

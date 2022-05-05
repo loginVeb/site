@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import User from './user/user.jsx'
 
-const SProfile = styled.div`
+
+const SDiologs = styled.div`
 grid-area:1/1/13/13;
 display: grid;
 grid-template-columns:repeat(12, 8.333%);  
@@ -12,12 +12,12 @@ color:green;
 font-family:DSMoster.woff ;
 border: solid 1px #ec4662;
 `
- const Profile = () => {
+ const Diologs = () => {
   return (
-<SProfile> 
-    <User/>
- </SProfile>
+<SDiologs> 
+   Diologs
+</SDiologs>
   );
 };
 
-export default Profile;
+export default Diologs;
