@@ -9,7 +9,7 @@ flex-direction:column;
 background: #cefefe ;
 color:red;
 font-family:DSMoster.woff ;
-border: solid 1px green;
+border: solid 0.2px blue ;
 `
 const SNavLink = styled(NavLink)`
 margin-top:10px;
@@ -25,15 +25,14 @@ text-decoration:none;
 <SNavLink to="/profile" activeStyle={{
     fontWeight: "bold",
     color: "red"
-  }}>profile</SNavLink>
-<SNavLink to="/diologs"activeStyle={{
+  }}> profile </SNavLink>
+<SNavLink to="/diologs" activeStyle={{
     fontWeight: "bold",
     color: "red"
-  }}>giologs</SNavLink>
+  }}> diologs </SNavLink>
  </SNav>
   );
 };
 
-//<SNavLink to="/profile" >profile</SNavLink>
 
 export default Nav;

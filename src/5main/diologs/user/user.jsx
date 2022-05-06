@@ -6,10 +6,9 @@ const SUsers = styled.div`
 grid-area:1/1/13/5;
 display:flex;
 flex-direction:column;
-background: #ceeecc ;
 color:green;
 font-family:DSMoster.woff ;
-border: solid 3px #ecfffe;
+border: solid 0.2px blue ;
 `;
 
 const Users = () => {
