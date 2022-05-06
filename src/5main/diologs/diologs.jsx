@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Users from './user/user.jsx'
+import Messages from './messages/messages'
 
 const SDiologs = styled.div`
 grid-area:1/1/13/13;
@@ -16,6 +17,7 @@ font-family:DSMoster.woff ;
   return (
 <SDiologs>
     <Users/>
+    <Messages/>
  </SDiologs>
   );
 };

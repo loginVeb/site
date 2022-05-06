@@ -14,10 +14,10 @@ border: solid 0.2px blue ;
 const Users = () => {
 return (
 <SUsers>
-<NameUser name="Pavel" /> 
-<NameUser name="Valentina" />
-<NameUser name="Anatoliy"/>
-<NameUser name="Valentina"/>
+<NameUser name="Pavel" id="1"/> 
+<NameUser name="Valentina" id="2"/>
+<NameUser name="Anatoliy" id="3"/>
+<NameUser name="Valentina" id="4"/>
  </SUsers>
   );
 };
